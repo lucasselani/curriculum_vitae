@@ -24,7 +24,7 @@ Senior Software Engineer with 6+ years of experience specializing in high-perfor
 ### PROFESSIONAL EXPERIENCE
 
 **Will Bank** | _Remote_
-**Senior Mobile Engineer** | _Nov 2024 – Present_
+**Senior Mobile Engineer** | _Nov 2024 – Jul 2026_
 _Fintech with 10M+ users. Focused on Fraud Prevention and Security._
 
 - Engineered the "Cash-in/Cash-out" security flows, designing adaptive challenge mechanisms that analyze user data in real-time to approve transactions.
@@ -32,7 +32,7 @@ _Fintech with 10M+ users. Focused on Fraud Prevention and Security._
 - Developed high-performance tooling using **Rust** to serialize backend structs into JSON for the Flutter SDUI engine, ensuring type safety and p99 latency compliance.
 
 **Unico IDtech** | _Remote_
-**Senior Flutter Developer** | _Jul 2020 – May 2024_
+**Senior Flutter Developer** | _Jun 2020 – Nov 2024_
 _Brazil's leader in digital identity. Scaled the core mobile product._
 
 - Architected and scaled a multi-module Flutter super-app serving **200k+ active users**, integrating secure facial biometrics and digital documents.
@@ -40,7 +40,7 @@ _Brazil's leader in digital identity. Scaled the core mobile product._
 - Established a robust CI/CD pipeline within a **Trunk-Based Monorepo**, automating testing and enabling a reliable weekly release train to App Stores.
 
 **Toodoo** | _São Paulo, Brazil_
-**Mid Android Developer** | _Feb 2019 – Jun 2020_
+**Mid Android Developer** | _Jan 2019 – Jun 2020_
 
 - **Burger King & Natura:** Developed high-impact features for major clients, including a digital banking module for Natura and geofenced promotions for Burger King.
 - **Wooza:** Built a Native Android app from scratch to facilitate phone carrier portability.
