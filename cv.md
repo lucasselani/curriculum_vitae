@@ -8,16 +8,17 @@ Brazil (Open to Remote) | +55 35 998346484 | selani.lucas@gmail.com | [linkedin.
 
 ### PROFESSIONAL SUMMARY
 
-Senior Software Engineer with 6+ years of experience specializing in high-performance Mobile Development. Currently protecting 10M+ users at Will Bank by integrating complex backend requirements with seamless Flutter experiences. Expert in bridging the gap between product and engineering through Server-Driven UI (SDUI) and automation. Proficient in **Flutter, Dart, Rust, and TypeScript**, with a strong background in Native Android.
+Senior Software Engineer with 8+ years of experience building end-to-end systems — from backend services in Rust, TypeScript, and Java/Kotlin to client-side applications in Flutter and native Android/iOS. At Will Bank, developed high-performance tooling in Rust and Server-Driven UI architectures that served 10M+ users. Strong background in systems architecture (Clean Architecture, monorepos, CI/CD), automation, and LLM integration.
 
 ---
 
 ### TECHNICAL SKILLS
 
-- **Mobile:** Flutter (Expert), Dart, Android Native (Kotlin/Java), iOS (Swift basics).
-- **Architecture & Systems:** Clean Architecture, Server-Driven UI (SDUI), Micro-frontends, Monorepos.
-- **Backend & Tooling:** Rust (High-performance tools), TypeScript, Node.js, CI/CD (GitHub Actions/Bitrise).
-- **AI & Automation:** LLM Integration (Ollama, Gemini), FFmpeg, Playwright, Python.
+- **Languages & Backend:** Dart, Kotlin/Java, Rust, TypeScript.
+- **Architecture & Systems:** Clean Architecture, Server-Driven UI (SDUI), APIs, Micro-frontends, Microservices, Monorepos.
+- **DevOps & Tooling:** CI/CD (GitHub Actions), Git, Automated Testing, Playwright.
+- **Mobile & Client-side:** Flutter, Android, iOS.
+- **AI & Automation:** LLM Integration (Ollama, Gemini), FFmpeg.
 
 ---
 
@@ -44,13 +45,12 @@ _Brazil's leader in digital identity. Scaled the core mobile product._
 
 - **Burger King & Natura:** Developed high-impact features for major clients, including a digital banking module for Natura and geofenced promotions for Burger King.
 - **Wooza:** Built a Native Android app from scratch to facilitate phone carrier portability.
-- **Health Tech:** Delivered a hybrid React Native application enabling doctors to manage digital prescriptions.
 
 **Inatel Competence Center (ICC)** | _Minas Gerais, Brazil_
 **Software Developer & QA** | _Jul 2014 – Jan 2019_
 
 - **Backend (Ericsson Project):** Developed backend solutions for a large-scale telecom project with 400+ employees.
-- **Mobile:** Assisted in the development and maintenance of native Android applications for 1.5 years.
+- **Mobile:** Assisted in the development and maintenance of native Android applications for 2 years.
 - **QA Specialist:** Started career with 3 years in Quality Assurance, conducting security, performance, and usability testing.
 
 ---
