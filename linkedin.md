@@ -136,7 +136,7 @@ Cadastre como duas posições na mesma empresa. O LinkedIn agrupa e mostra a pro
 | Title | Senior Software Developer |
 | Employment type | Full-time |
 | Company or organization | Unico |
-| Start date | Jan 2023 |
+| Start date | Aug 2022 |
 | End date | Nov 2024 |
 | Location | Brazil |
 | Location type | Remote |
@@ -152,7 +152,7 @@ Brazil's leader in digital identity. IC5 (Senior) on the Flutter super-app and, 
 • Moved feature flags and product analytics to LaunchDarkly and Mixpanel.
 • Final year: 6 months as a backend engineer in Go (after contributing to the Go BFF) and 6 months on React web.
 
-Stack: Flutter · Dart · LaunchDarkly · Mixpanel · New Relic · incident.io · Go · React
+Stack: Flutter · Dart · LaunchDarkly · Mixpanel · New Relic · incident.io · Go · React · Google Cloud Platform (GCP)
 ```
 
 **Posição anterior**
@@ -163,19 +163,19 @@ Stack: Flutter · Dart · LaunchDarkly · Mixpanel · New Relic · incident.io �
 | Employment type | Full-time |
 | Company or organization | Unico |
 | Start date | Jun 2020 |
-| End date | Dec 2022 |
+| End date | Jul 2022 |
 | Location | Brazil |
 | Location type | Remote |
 | Skills | Flutter · Dart · Firebase · Continuous Integration and Continuous Delivery (CI/CD) · Mobile Application Development |
 
 ```
-Mobile developer on Unico's Flutter app (digital identity). Promoted to Senior Software Developer in Jan 2023.
+Mobile developer on Unico's Flutter app (digital identity). Promoted to Senior Software Developer in Aug 2022.
 
 • Built the Core Module: the platform layer shared by every feature of the app.
 • Automated CI/CD for test builds and App Store / Google Play publishing.
 • Instrumented the app from day one with Segment events, Firebase (Firestore, Remote Config) and feature flags.
 
-Stack: Flutter · Dart · Firebase · Segment · CI/CD
+Stack: Flutter · Dart · Firebase · Segment · CI/CD · Google Cloud Platform (GCP)
 ```
 
 ### 3.4 Toodoo

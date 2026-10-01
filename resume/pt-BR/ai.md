@@ -43,7 +43,7 @@ _Fintech com mais de 10 milhões de usuários · Prevenção a Fraudes · Remoto
 
 ### Desenvolvedor de Software Sênior — Unico IDtech | Jun 2020 – Nov 2024
 
-_Líder brasileira em identidade digital · Remoto · Entrei como Desenvolvedor de Software e fui promovido a Sênior (IC5) em jan/2023._
+_Líder brasileira em identidade digital · Remoto · Entrei como Desenvolvedor de Software e fui promovido a Sênior (IC5) em ago/2022._
 
 - Arquitetei um **super-app Flutter** multimódulo com **mais de 200 mil usuários ativos**, incluindo Módulo Core, Design System, trem de releases com CI/CD e alertas de plantão (New Relic, incident.io).
 - No último ano, trabalhei 6 meses como engenheiro de backend em **Go** e 6 meses em web com **React**.

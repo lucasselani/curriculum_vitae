@@ -38,14 +38,14 @@ _Fintech com mais de 10 milhões de usuários · Prevenção a Fraudes · Remoto
 
 ### Desenvolvedor de Software Sênior — Unico IDtech | Jun 2020 – Nov 2024
 
-_Líder brasileira em identidade digital · Remoto · Entrei como Desenvolvedor de Software e fui promovido a Sênior (IC5) em jan/2023._
+_Líder brasileira em identidade digital · Remoto · Entrei como Desenvolvedor de Software e fui promovido a Sênior (IC5) em ago/2022._
 
 - Arquitetei o **super-app Flutter** multimódulo (**mais de 200 mil usuários ativos**, biometria facial e documentos digitais) conforme o time crescia: pacotes por funcionalidade com time dono via **CODEOWNERS**, o que reduziu o tempo de build e os conflitos de merge, deixou o code review com o time responsável e permitiu rodar cada módulo isoladamente.
 - Projetei o **Design System** usado por todos os módulos do super-app, sobre o **Módulo Core** que eu já havia construído com a camada de plataforma compartilhada por todas as funcionalidades.
 - Automatizei o **CI/CD** de builds de teste e da publicação na App Store e no Google Play, e depois organizei as entregas em um **trem de releases semanal**.
 - Montei o fluxo de alertas de plantão com **New Relic** e **incident.io** para o responsável da semana, e migrei analytics e feature flags de **Segment** e **Firebase** (Firestore, Remote Config) para **Mixpanel** e **LaunchDarkly**.
 - No último ano, migrei para o fullstack: 6 meses como engenheiro de backend em **Go** (depois de contribuir no BFF em Go) e 6 meses em web com **React**.
-- Stack: Flutter, Dart, Firebase, LaunchDarkly, Mixpanel, New Relic, incident.io, Go, React.
+- Stack: Flutter, Dart, Firebase, GCP, LaunchDarkly, Mixpanel, New Relic, incident.io, Go, React.
 
 ### Desenvolvedor Android — Toodoo | Jan 2019 – Jun 2020
 

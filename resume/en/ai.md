@@ -43,7 +43,7 @@ _Fintech with 10M+ users · Fraud Prevention · Remote · Engineering department
 
 ### Senior Software Developer — Unico IDtech | Jun 2020 – Nov 2024
 
-_Brazil's leader in digital identity · Remote · Joined as Software Developer, promoted to Senior (IC5) in Jan 2023._
+_Brazil's leader in digital identity · Remote · Joined as Software Developer, promoted to Senior (IC5) in Aug 2022._
 
 - Architected a multi-module **Flutter super-app** serving **200k+ active users**, with its Core Module, Design System, CI/CD release train and on-call alerting (New Relic, incident.io).
 - In the final year, worked 6 months as a backend engineer in **Go** and 6 months on **React** web.
