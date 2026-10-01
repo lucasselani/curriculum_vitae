@@ -37,7 +37,7 @@ Engenheiro de Software Sênior com mais de 9 anos de experiência em produção 
 _Fintech com mais de 10 milhões de usuários · Prevenção a Fraudes · Remoto · Departamento de engenharia encerrado em jul/2026._
 
 - Desenvolvi e mantive 4 microsserviços de backend (**Rust**, **Java**, JavaScript) na **AWS** com **PostgreSQL** para o fluxo de desafios de segurança, chamado em **toda transação Pix**; migrei sozinho o serviço legado de senha do cartão de Java para Rust.
-- Construí um sistema de **Server-Driven UI (SDUI)** em que o app Flutter apenas renderiza as telas enviadas pelo backend, transformando um **ciclo de release de duas semanas** em uma **mudança instantânea no backend** com feature flag.
+- Construí um sistema de **Server-Driven UI (SDUI)** em que o app Flutter apenas renderiza as telas enviadas pelo backend, transformando um **ciclo de release de duas semanas** em uma **mudança instantânea no backend** com feature flag no **GrowthBook**.
 - Escrevi RFCs e ADRs da migração, da adoção de SDUI e de uma refatoração que adicionou eventos e logs ao pacote de prevenção a fraudes.
 - Criei dashboards no Datadog e no PostHog para saúde do fluxo, abandono na jornada do usuário e depuração de erros.
 

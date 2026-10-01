@@ -37,7 +37,7 @@ Senior Software Engineer with 9+ years of production experience in fintech (10M+
 _Fintech with 10M+ users · Fraud Prevention · Remote · Engineering department closed in Jul 2026._
 
 - Developed and maintained 4 backend microservices (**Rust**, **Java**, JavaScript) on **AWS** with **PostgreSQL** for the security challenge flow, called on **every Pix transaction**; migrated the legacy Java card password service to Rust as the sole engineer on it.
-- Built a **Server-Driven UI (SDUI)** system where the Flutter app only renders screens sent by the backend, turning a **two-week release cycle** into an **instant backend change** behind a feature flag.
+- Built a **Server-Driven UI (SDUI)** system where the Flutter app only renders screens sent by the backend, turning a **two-week release cycle** into an **instant backend change** behind a **GrowthBook** feature flag.
 - Wrote RFCs and ADRs for the migration, the move to SDUI and a refactor that added events and logs to the fraud prevention package.
 - Built Datadog and PostHog dashboards for flow health, user-journey drop-off and error debugging.
 

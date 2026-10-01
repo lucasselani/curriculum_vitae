@@ -14,7 +14,7 @@ Engenheiro Mobile Sênior com mais de 9 anos desenvolvendo software: 6 anos entr
 
 - **Mobile:** Android (Kotlin, Java), Flutter, Dart, BLoC, Firebase (Firestore, Remote Config), Analytics (PostHog, Mixpanel, Segment), iOS via Flutter, Server-Driven UI (SDUI), Arquitetura Modular, Design Systems
 - **Backend:** Rust, Java, Go, Node.js/JavaScript, TypeScript, APIs REST, Microsserviços, PostgreSQL, Redis
-- **Cloud e DevOps:** AWS, GCP, Docker, Kubernetes, Terraform, CI/CD (GitHub Actions), Trunk-Based Development, Feature Flags (LaunchDarkly)
+- **Cloud e DevOps:** AWS, GCP, Docker, Kubernetes, Terraform, CI/CD (GitHub Actions), Trunk-Based Development, Feature Flags (GrowthBook, LaunchDarkly)
 - **Web:** React
 - **Práticas:** Clean Architecture, RFCs e ADRs, CODEOWNERS, Observabilidade (Datadog, New Relic, incident.io, eventos e logs), Testes automatizados
 - **IA:** Agentes de LLM, Claude Code, Ollama, ComfyUI
@@ -29,12 +29,12 @@ Engenheiro Mobile Sênior com mais de 9 anos desenvolvendo software: 6 anos entr
 
 _Fintech com mais de 10 milhões de usuários · Prevenção a Fraudes · Remoto · Departamento de engenharia encerrado em jul/2026._
 
-- Construí um sistema de **Server-Driven UI (SDUI)** para os fluxos de desafio de segurança: o app **Flutter** apenas renderiza o que o backend envia, e mudanças nas telas de senha do cartão passaram de um **ciclo de release de duas semanas** (corte, beta, publicação nas lojas) para uma **mudança instantânea no backend** com feature flag.
+- Construí um sistema de **Server-Driven UI (SDUI)** para os fluxos de desafio de segurança: o app **Flutter** apenas renderiza o que o backend envia, e mudanças nas telas de senha do cartão passaram de um **ciclo de release de duas semanas** (corte, beta, publicação nas lojas) para uma **mudança instantânea no backend** com feature flag no **GrowthBook**.
 - Migrei sozinho o serviço legado de senha do cartão de **Java** para um microsserviço em **Rust** na **AWS** com **PostgreSQL**, e levei suas telas para SDUI.
 - Desenvolvi e mantive 4 microsserviços de backend (Rust, Java, JavaScript) do fluxo de desafios, chamado em **toda transação Pix**: o app envia o fluxo (Pix, cartão e outros) e o backend decide qual desafio exibir.
 - Escrevi RFCs e ADRs da migração do serviço, da adoção de SDUI no app e de uma refatoração do pacote de prevenção a fraudes, que adicionou eventos e logs a um código com muitos bugs e sem observabilidade.
 - Criei dashboards no **Datadog** (logs) e no **PostHog** (eventos) para o fluxo de desafios: saúde do fluxo, funis da jornada do usuário para encontrar pontos de abandono e painéis para depurar erros específicos.
-- Stack: Flutter, Dart, Rust, Java, AWS, PostgreSQL, Server-Driven UI, Feature Flags, Datadog, PostHog.
+- Stack: Flutter, Dart, Rust, Java, AWS, PostgreSQL, Server-Driven UI, GrowthBook, Datadog, PostHog.
 
 ### Desenvolvedor de Software Sênior — Unico IDtech | Jun 2020 – Nov 2024
 

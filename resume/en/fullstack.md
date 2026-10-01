@@ -13,7 +13,7 @@ Senior Software Engineer with 9+ years building products end to end in fintech (
 ## Skills
 
 - **Backend:** Rust, Java, Go, Node.js/JavaScript, TypeScript, REST APIs, Microservices, PostgreSQL, Redis
-- **Cloud & DevOps:** AWS, GCP, Docker, Kubernetes, Terraform, CI/CD (GitHub Actions), Trunk-Based Development, Feature Flags (LaunchDarkly), Observability (Datadog, New Relic, incident.io)
+- **Cloud & DevOps:** AWS, GCP, Docker, Kubernetes, Terraform, CI/CD (GitHub Actions), Trunk-Based Development, Feature Flags (GrowthBook, LaunchDarkly), Observability (Datadog, New Relic, incident.io)
 - **Mobile & Web:** Flutter, Dart, Android (Kotlin, Java), iOS via Flutter, React, BLoC, Firebase, PostHog, Mixpanel, Segment
 - **Architecture:** Server-Driven UI (SDUI), Microservices, Clean Architecture, Modular Architecture, Design Systems, RFCs and ADRs
 - **AI:** LLM agents, Claude Code, Ollama, ComfyUI, Remotion, Playwright
@@ -29,11 +29,11 @@ Senior Software Engineer with 9+ years building products end to end in fintech (
 _Fintech with 10M+ users · Fraud Prevention · Remote · Engineering department closed in Jul 2026._
 
 - Developed and maintained 4 backend microservices (**Rust**, **Java**, JavaScript) on **AWS** with **PostgreSQL** for the security challenge flow, which is called on **every Pix transaction**: the app sends the flow (Pix, card and others) and the backend decides which challenge to show.
-- Built a full-stack **Server-Driven UI (SDUI)** system on top of it: the backend returns the screens and the **Flutter** app only renders them, so changes to the card password screens went from a **two-week release cycle** (code freeze, beta, store rollout) to an **instant backend change** behind a feature flag.
+- Built a full-stack **Server-Driven UI (SDUI)** system on top of it: the backend returns the screens and the **Flutter** app only renders them, so changes to the card password screens went from a **two-week release cycle** (code freeze, beta, store rollout) to an **instant backend change** behind a **GrowthBook** feature flag.
 - Migrated the legacy Java card password service to Rust as the sole engineer on it, and moved its screens to SDUI.
 - Wrote RFCs and ADRs for the service migration, the app's move to SDUI and a refactor of the fraud prevention package that added events and logs to a buggy, unobservable codebase.
 - Built **Datadog** (logs) and **PostHog** (events) dashboards for the challenge flow: flow health, user-journey funnels to find drop-off points, and boards for debugging specific errors.
-- Stack: Rust, Java, JavaScript, AWS, PostgreSQL, Flutter, Dart, Server-Driven UI, Feature Flags, Datadog, PostHog.
+- Stack: Rust, Java, JavaScript, AWS, PostgreSQL, Flutter, Dart, Server-Driven UI, GrowthBook, Datadog, PostHog.
 
 ### Senior Software Developer — Unico IDtech | Jun 2020 – Nov 2024
 

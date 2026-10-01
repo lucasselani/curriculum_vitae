@@ -51,7 +51,7 @@ Senior Mobile Engineer with 9+ years building software: 6 years shipping Flutter
 
 What I've built:
 
-• Will Bank (fintech, 10M+ users): a Server-Driven UI (SDUI) system for the fraud prevention challenges. The backend sends the screens and the Flutter app only renders them, so changing the card password flow went from a two-week release cycle (code freeze, beta, store rollout) to an instant backend change behind a feature flag. I also developed 4 microservices (Rust, Java, JavaScript) for the challenge flow, which is called on every Pix transaction, and migrated the legacy Java card password service to Rust as the sole engineer on it. I also built the Datadog and PostHog dashboards the team used to watch flow health, user drop-off and errors.
+• Will Bank (fintech, 10M+ users): a Server-Driven UI (SDUI) system for the fraud prevention challenges. The backend sends the screens and the Flutter app only renders them, so changing the card password flow went from a two-week release cycle (code freeze, beta, store rollout) to an instant backend change behind a GrowthBook feature flag. I also developed 4 microservices (Rust, Java, JavaScript) for the challenge flow, which is called on every Pix transaction, and migrated the legacy Java card password service to Rust as the sole engineer on it. I also built the Datadog and PostHog dashboards the team used to watch flow health, user drop-off and errors.
 
 • Unico (digital identity, 200k+ active users): architected a multi-module Flutter super-app with facial biometrics and digital documents, its Core Module and the Design System used by every module, plus CI/CD, a weekly release train and on-call alerting with New Relic and incident.io. In my final year I worked 6 months on Go backend and 6 months on React web.
 
@@ -116,13 +116,13 @@ Stack: Claude Code · LLM agents · TypeScript · Node.js · Playwright · Remot
 ```
 Fintech with 10M+ users. Fraud Prevention squad, working across mobile and backend. Engineering department closed in Jul 2026.
 
-• Built a Server-Driven UI (SDUI) system for the security challenge flows: the Flutter app only renders what the backend sends, so changes to the card password screens went from a two-week release cycle (code freeze, beta, store rollout) to an instant backend change behind a feature flag.
+• Built a Server-Driven UI (SDUI) system for the security challenge flows: the Flutter app only renders what the backend sends, so changes to the card password screens went from a two-week release cycle (code freeze, beta, store rollout) to an instant backend change behind a GrowthBook feature flag.
 • Migrated the legacy Java card password service to a Rust microservice on AWS with PostgreSQL as the sole engineer on it, and moved its screens to SDUI.
 • Developed and maintained 4 backend microservices (Rust, Java, JavaScript) for the challenge flow, which is called on every Pix transaction: the app sends the flow (Pix, card and others) and the backend decides which challenge to show.
 • Wrote RFCs and ADRs for the service migration, the app's move to SDUI and a refactor of the fraud prevention package that added events and logs to a buggy, unobservable codebase.
 • Built Datadog (logs) and PostHog (events) dashboards for the challenge flow: flow health, user-journey funnels to find drop-off points, and boards for debugging specific errors.
 
-Stack: Flutter · Dart · Rust · Java · JavaScript · AWS · PostgreSQL · Server-Driven UI · Feature Flags · Datadog · PostHog
+Stack: Flutter · Dart · Rust · Java · JavaScript · AWS · PostgreSQL · Server-Driven UI · GrowthBook · Datadog · PostHog
 ```
 
 ### 3.3 Unico IDtech (duas posições na mesma empresa)
@@ -289,7 +289,7 @@ Rust · Java · Go (Programming Language) · Node.js · JavaScript · TypeScript
 React.js · Full-Stack Development · Front-End Development
 
 **Cloud & DevOps**
-Amazon Web Services (AWS) · Google Cloud Platform (GCP) · Docker · Kubernetes · Terraform · Continuous Integration and Continuous Delivery (CI/CD) · GitHub Actions · Git · Trunk-Based Development · Feature Flags · LaunchDarkly · Monorepos
+Amazon Web Services (AWS) · Google Cloud Platform (GCP) · Docker · Kubernetes · Terraform · Continuous Integration and Continuous Delivery (CI/CD) · GitHub Actions · Git · Trunk-Based Development · Feature Flags · GrowthBook · LaunchDarkly · Monorepos
 
 **Qualidade e práticas**
 Automated Testing · Quality Assurance · Observability · Datadog · New Relic · Incident Management · On-call · PostHog · Mixpanel · Segment · Product Analytics · Dashboards · Technical Documentation · Code Review · Architecture Decision Records
@@ -346,7 +346,7 @@ Engenheiro Mobile Sênior com mais de 9 anos desenvolvendo software: 6 anos entr
 
 O que construí:
 
-• Will Bank (fintech, 10M+ usuários): um sistema de Server-Driven UI (SDUI) para os desafios de prevenção a fraudes. O backend envia as telas e o app Flutter só renderiza, e mudar o fluxo de senha do cartão passou de um ciclo de release de duas semanas para uma mudança instantânea no backend com feature flag. Também desenvolvi 4 microsserviços (Rust, Java, JavaScript) do fluxo de desafios, chamado em toda transação Pix, e migrei sozinho o serviço legado de senha do cartão de Java para Rust. Também criei os dashboards no Datadog e no PostHog que o time usava para acompanhar saúde do fluxo, abandono e erros.
+• Will Bank (fintech, 10M+ usuários): um sistema de Server-Driven UI (SDUI) para os desafios de prevenção a fraudes. O backend envia as telas e o app Flutter só renderiza, e mudar o fluxo de senha do cartão passou de um ciclo de release de duas semanas para uma mudança instantânea no backend com feature flag no GrowthBook. Também desenvolvi 4 microsserviços (Rust, Java, JavaScript) do fluxo de desafios, chamado em toda transação Pix, e migrei sozinho o serviço legado de senha do cartão de Java para Rust. Também criei os dashboards no Datadog e no PostHog que o time usava para acompanhar saúde do fluxo, abandono e erros.
 
 • Unico (identidade digital, 200 mil+ usuários ativos): arquitetei um super-app Flutter multimódulo com biometria facial e documentos digitais, o Módulo Core e o Design System usados por todos os módulos, além de CI/CD, trem de releases semanal e alertas de plantão com New Relic e incident.io. No último ano, trabalhei 6 meses com backend em Go e 6 meses com web em React.
 

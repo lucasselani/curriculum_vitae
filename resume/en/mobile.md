@@ -14,7 +14,7 @@ Senior Mobile Engineer with 9+ years building software: 6 years shipping Flutter
 
 - **Mobile:** Android (Kotlin, Java), Flutter, Dart, BLoC, Firebase (Firestore, Remote Config), Analytics (PostHog, Mixpanel, Segment), iOS via Flutter, Server-Driven UI (SDUI), Modular Architecture, Design Systems
 - **Backend:** Rust, Java, Go, Node.js/JavaScript, TypeScript, REST APIs, Microservices, PostgreSQL, Redis
-- **Cloud & DevOps:** AWS, GCP, Docker, Kubernetes, Terraform, CI/CD (GitHub Actions), Trunk-Based Development, Feature Flags (LaunchDarkly)
+- **Cloud & DevOps:** AWS, GCP, Docker, Kubernetes, Terraform, CI/CD (GitHub Actions), Trunk-Based Development, Feature Flags (GrowthBook, LaunchDarkly)
 - **Web:** React
 - **Practices:** Clean Architecture, RFCs and ADRs, CODEOWNERS, Observability (Datadog, New Relic, incident.io, events and logs), Automated Testing
 - **AI:** LLM agents, Claude Code, Ollama, ComfyUI
@@ -29,12 +29,12 @@ Senior Mobile Engineer with 9+ years building software: 6 years shipping Flutter
 
 _Fintech with 10M+ users · Fraud Prevention · Remote · Engineering department closed in Jul 2026._
 
-- Built a **Server-Driven UI (SDUI)** system for the security challenge flows: the **Flutter** app only renders what the backend sends, so changes to the card password screens went from a **two-week release cycle** (code freeze, beta, store rollout) to an **instant backend change** behind a feature flag.
+- Built a **Server-Driven UI (SDUI)** system for the security challenge flows: the **Flutter** app only renders what the backend sends, so changes to the card password screens went from a **two-week release cycle** (code freeze, beta, store rollout) to an **instant backend change** behind a **GrowthBook** feature flag.
 - Migrated the legacy **Java** card password service to a **Rust** microservice on **AWS** with **PostgreSQL** as the sole engineer on it, and moved its screens to SDUI.
 - Developed and maintained 4 backend microservices (Rust, Java, JavaScript) for the challenge flow, which is called on **every Pix transaction**: the app sends the flow (Pix, card and others) and the backend decides which challenge to show.
 - Wrote RFCs and ADRs for the service migration, the app's move to SDUI and a refactor of the fraud prevention package that added events and logs to a buggy, unobservable codebase.
 - Built **Datadog** (logs) and **PostHog** (events) dashboards for the challenge flow: flow health, user-journey funnels to find drop-off points, and boards for debugging specific errors.
-- Stack: Flutter, Dart, Rust, Java, AWS, PostgreSQL, Server-Driven UI, Feature Flags, Datadog, PostHog.
+- Stack: Flutter, Dart, Rust, Java, AWS, PostgreSQL, Server-Driven UI, GrowthBook, Datadog, PostHog.
 
 ### Senior Software Developer — Unico IDtech | Jun 2020 – Nov 2024
 
