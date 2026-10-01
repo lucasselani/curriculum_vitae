@@ -32,7 +32,7 @@ Senior Software Engineer with 9+ years of production experience in fintech (10M+
 
 - Running an AI-driven YouTube content operation built on **Claude Code**: agent jobs, scripts and documentation that research niches, write scripts, generate narration and video assets, and package each upload.
 
-### Senior Mobile Engineer — Will Bank | Nov 2024 – Jul 2026
+### Senior Software Engineer — Will Bank | Nov 2024 – Jul 2026
 
 _Fintech with 10M+ users · Fraud Prevention · Remote · Engineering department closed in Jul 2026._
 

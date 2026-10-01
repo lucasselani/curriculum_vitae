@@ -5,7 +5,7 @@ Copie cada bloco para o campo indicado. A ordem segue o LinkedIn: topo do perfil
 - **Perfil primário em inglês.** Ao final há a versão em português do Headline e do About para o perfil secundário.
 - Os limites de caracteres estão entre parênteses. Os textos já estão dentro deles.
 - `[preencher]` marca um dado que eu não sei. Não invente: deixe vazio se não souber.
-- Os títulos dos cargos são os **oficiais**, porque recrutadores cruzam LinkedIn, CV e referências. O posicionamento como "Software Engineer" fica no Headline, no About e na posição atual.
+- Os títulos seguem o que a função era na prática dentro de cada empresa (na Will Bank não havia distinção entre mobile e backend na carreira).
 
 ---
 
@@ -102,7 +102,7 @@ Stack: Claude Code · LLM agents · TypeScript · Node.js · Playwright · Remot
 
 | Campo | Valor |
 |---|---|
-| Title | Senior Mobile Engineer |
+| Title | Senior Software Engineer |
 | Employment type | Full-time |
 | Company or organization | Will Bank |
 | Start date | Nov 2024 |

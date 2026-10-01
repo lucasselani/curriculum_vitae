@@ -25,7 +25,7 @@ Senior Mobile Engineer with 9+ years building software: 6 years shipping Flutter
 
 - Building AI automation projects: an agent-driven YouTube content operation that uses Claude Code jobs, scripts and documentation for niche research, scripting, narration and video generation.
 
-### Senior Mobile Engineer — Will Bank | Nov 2024 – Jul 2026
+### Senior Software Engineer — Will Bank | Nov 2024 – Jul 2026
 
 _Fintech with 10M+ users · Fraud Prevention · Remote · Engineering department closed in Jul 2026._
 

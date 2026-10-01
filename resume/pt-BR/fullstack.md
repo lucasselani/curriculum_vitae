@@ -24,7 +24,7 @@ Engenheiro de Software Sênior com mais de 9 anos construindo produtos de ponta 
 
 - Construo projetos de automação com IA: uma operação de conteúdo para YouTube conduzida por agentes, com jobs do Claude Code, scripts e documentação para pesquisa de nicho, roteiro, narração e geração de vídeo.
 
-### Engenheiro Mobile Sênior — Will Bank | Nov 2024 – Jul 2026
+### Engenheiro de Software Sênior — Will Bank | Nov 2024 – Jul 2026
 
 _Fintech com mais de 10 milhões de usuários · Prevenção a Fraudes · Remoto · Departamento de engenharia encerrado em jul/2026._
 
