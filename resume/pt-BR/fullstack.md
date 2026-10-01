@@ -36,7 +36,7 @@ _Fintech com mais de 10 milhões de usuários · Prevenção a Fraudes · Remoto
 
 ### Desenvolvedor de Software Sênior — Unico IDtech | Jun 2020 – Nov 2024
 
-_Líder brasileira em identidade digital · Remoto · Entrei como Desenvolvedor de Software e fui promovido a Sênior (IC5) em 2022._
+_Líder brasileira em identidade digital · Remoto · Entrei como Desenvolvedor de Software e fui promovido a Sênior (IC5) em jan/2023._
 
 - No último ano, migrei para o fullstack: 6 meses como engenheiro de backend em **Go** (depois de contribuir no BFF em Go) e 6 meses em web com **React**.
 - Arquitetei e escalei um **super-app Flutter** multimódulo com mais de **200 mil usuários ativos**, com biometria facial e documentos digitais.
@@ -59,7 +59,7 @@ _Santa Rita do Sapucaí, MG._
 
 ## Projetos
 
-### Darkrunner — pipeline automatizado de vídeo (TypeScript/Node.js, privado)
+### Darkrunner — pipeline automatizado de vídeo (TypeScript/Node.js, privado) | Nov 2025 – Abr 2026
 
 - Monorepo TypeScript em que agentes de LLM cuidam de roteiro, planejamento e QA: a partir apenas do nome do canal, produzia um vídeo completo (roteiro, narração, imagens, efeitos, legendas) e fazia o upload no YouTube, chegando a 15 vídeos por dia em 5 canais. Feito com Remotion, Playwright, Ollama e ComfyUI.
 

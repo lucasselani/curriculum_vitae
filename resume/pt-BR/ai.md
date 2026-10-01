@@ -20,7 +20,7 @@ Engenheiro de Software Sênior com mais de 9 anos de experiência em produção 
 
 ## Projetos de IA
 
-### Darkrunner — pipeline multiagentes de vídeo (TypeScript/Node.js, privado)
+### Darkrunner — pipeline multiagentes de vídeo (TypeScript/Node.js, privado) | Nov 2025 – Abr 2026
 
 - Projetei um monorepo **TypeScript/Node.js** em que **agentes de LLM** cuidam de roteiro, planejamento e QA. A partir apenas do nome do canal, carregava as configurações dele, produzia um vídeo completo em formato podcast (roteiro, narração, imagens, efeitos, legendas) e fazia o upload no YouTube.
 - Renderização programática com **Remotion**, imagens e áudio gerados localmente com **Ollama** e **ComfyUI**, e um segundo fluxo que gerava clipes **Veo 3** via automação de navegador com **Playwright**.
@@ -42,7 +42,7 @@ _Fintech com mais de 10 milhões de usuários · Prevenção a Fraudes · Remoto
 
 ### Desenvolvedor de Software Sênior — Unico IDtech | Jun 2020 – Nov 2024
 
-_Líder brasileira em identidade digital · Remoto · Entrei como Desenvolvedor de Software e fui promovido a Sênior (IC5) em 2022._
+_Líder brasileira em identidade digital · Remoto · Entrei como Desenvolvedor de Software e fui promovido a Sênior (IC5) em jan/2023._
 
 - Arquitetei e escalei um **super-app Flutter** multimódulo com mais de **200 mil usuários ativos**, com biometria facial e documentos digitais, incluindo Módulo Core, Design System e trem de releases com CI/CD.
 - No último ano, trabalhei 6 meses como engenheiro de backend em **Go** e 6 meses em web com **React**.

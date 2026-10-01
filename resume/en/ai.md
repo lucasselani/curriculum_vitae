@@ -20,7 +20,7 @@ Senior Software Engineer with 9+ years of production experience in fintech (10M+
 
 ## AI Projects
 
-### Darkrunner — multi-agent video pipeline (TypeScript/Node.js, private)
+### Darkrunner — multi-agent video pipeline (TypeScript/Node.js, private) | Nov 2025 – Apr 2026
 
 - Designed a **TypeScript/Node.js** monorepo where **LLM agents** handle scripting, planning and QA. Given only a channel name, it loaded that channel's settings and produced a full podcast-style video (script, voice-over, images, effects, subtitles) and uploaded it to YouTube.
 - Rendered video programmatically with **Remotion**, generated images and audio locally with **Ollama** and **ComfyUI**, and added a second flow that generated **Veo 3** clips through **Playwright** browser automation.
@@ -42,7 +42,7 @@ _Fintech with 10M+ users · Fraud Prevention · Remote · Engineering department
 
 ### Senior Software Developer — Unico IDtech | Jun 2020 – Nov 2024
 
-_Brazil's leader in digital identity · Remote · Joined as Software Developer, promoted to Senior (IC5) in 2022._
+_Brazil's leader in digital identity · Remote · Joined as Software Developer, promoted to Senior (IC5) in Jan 2023._
 
 - Architected and scaled a multi-module **Flutter super-app** serving **200k+ active users**, with facial biometrics and digital documents, its Core Module, Design System and CI/CD release train.
 - In the final year, worked 6 months as a backend engineer in **Go** and 6 months on **React** web.

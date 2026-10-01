@@ -135,7 +135,7 @@ Cadastre como duas posições na mesma empresa. O LinkedIn agrupa e mostra a pro
 | Title | Senior Software Developer |
 | Employment type | Full-time |
 | Company or organization | Unico |
-| Start date | [preencher: mês] 2022 |
+| Start date | Jan 2023 |
 | End date | Nov 2024 |
 | Location | Brazil |
 | Location type | Remote |
@@ -161,12 +161,12 @@ Stack: Flutter · Dart · BLoC · Go · React · GitHub Actions · Monorepo
 | Employment type | Full-time |
 | Company or organization | Unico |
 | Start date | Jun 2020 |
-| End date | [preencher: mês] 2022 |
+| End date | Dec 2022 |
 | Location type | Remote |
 | Skills | Flutter · Dart · Mobile Application Development |
 
 ```
-Mobile developer on Unico's Flutter super-app (digital identity). Promoted to Senior Software Developer in 2022.
+Mobile developer on Unico's Flutter super-app (digital identity). Promoted to Senior Software Developer in Jan 2023.
 
 Stack: Flutter · Dart · Android
 ```
@@ -181,7 +181,7 @@ Stack: Flutter · Dart · Android
 | Start date | Jan 2019 |
 | End date | Jun 2020 |
 | Location | São Paulo, Brazil |
-| Location type | [preencher: On-site / Hybrid] |
+| Location type | Hybrid |
 | Skills | Android Development · Kotlin · Java |
 
 ```
@@ -217,9 +217,9 @@ Agency projects for enterprise clients.
 | Campo | Valor |
 |---|---|
 | Project name | Darkrunner — Multi-agent AI video pipeline |
-| Start date | [preencher] |
-| End date | [preencher] |
-| Associated with | Self-employed |
+| Start date | Nov 2025 |
+| End date | Apr 2026 |
+| Associated with | (deixe vazio: foi projeto pessoal, feito em paralelo à Will Bank) |
 | Skills | TypeScript · Node.js · AI Agents · Playwright · Large Language Models (LLM) |
 
 ```

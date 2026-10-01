@@ -36,7 +36,7 @@ _Fintech with 10M+ users · Fraud Prevention · Remote · Engineering department
 
 ### Senior Software Developer — Unico IDtech | Jun 2020 – Nov 2024
 
-_Brazil's leader in digital identity · Remote · Joined as Software Developer, promoted to Senior (IC5) in 2022._
+_Brazil's leader in digital identity · Remote · Joined as Software Developer, promoted to Senior (IC5) in Jan 2023._
 
 - Moved into fullstack work in the final year: 6 months as a backend engineer in **Go** (after contributing to the Go BFF) and 6 months on **React** web.
 - Architected and scaled a multi-module **Flutter super-app** serving **200k+ active users**, with facial biometrics and digital documents.
@@ -59,7 +59,7 @@ _Minas Gerais, Brazil._
 
 ## Projects
 
-### Darkrunner — automated video pipeline (TypeScript/Node.js, private)
+### Darkrunner — automated video pipeline (TypeScript/Node.js, private) | Nov 2025 – Apr 2026
 
 - TypeScript monorepo where LLM agents handle scripting, planning and QA: given only a channel name, it produced a full video (script, voice-over, images, effects, subtitles) and uploaded it to YouTube, up to 15 videos a day across 5 channels. Built with Remotion, Playwright, Ollama and ComfyUI.
 
