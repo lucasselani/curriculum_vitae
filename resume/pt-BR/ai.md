@@ -15,7 +15,7 @@ Engenheiro de Software Sênior com mais de 9 anos de experiência em produção 
 - **IA:** Agentes de LLM, orquestração multiagentes, Claude Code, Ollama, ComfyUI, Gemini, text-to-speech, geração de vídeo com IA (Veo 3), engenharia de prompt
 - **Linguagens:** TypeScript, Node.js, Rust, Java, Go, Dart, Kotlin, JavaScript
 - **Automação:** Playwright, Remotion, FFmpeg, YouTube API
-- **Backend e Cloud:** Microsserviços, APIs REST, PostgreSQL, Redis, AWS, GCP, Docker, Kubernetes, Terraform, CI/CD (GitHub Actions)
+- **Backend e Cloud:** Microsserviços, APIs REST, PostgreSQL, Redis, AWS, GCP, Docker, Kubernetes, Terraform, CI/CD (GitHub Actions), Datadog, New Relic, PostHog
 - **Mobile e Web:** Flutter, Android, React, Server-Driven UI (SDUI)
 
 ## Projetos de IA
@@ -39,12 +39,13 @@ _Fintech com mais de 10 milhões de usuários · Prevenção a Fraudes · Remoto
 - Desenvolvi e mantive 4 microsserviços de backend (**Rust**, **Java**, JavaScript) na **AWS** com **PostgreSQL** para o fluxo de desafios de segurança, chamado em **toda transação Pix**; migrei sozinho o serviço legado de senha do cartão de Java para Rust.
 - Construí um sistema de **Server-Driven UI (SDUI)** em que o app Flutter apenas renderiza as telas enviadas pelo backend, transformando um **ciclo de release de duas semanas** em uma **mudança instantânea no backend** com feature flag.
 - Escrevi RFCs e ADRs da migração, da adoção de SDUI e de uma refatoração que adicionou eventos e logs ao pacote de prevenção a fraudes.
+- Criei dashboards no Datadog e no PostHog para saúde do fluxo, abandono na jornada do usuário e depuração de erros.
 
 ### Desenvolvedor de Software Sênior — Unico IDtech | Jun 2020 – Nov 2024
 
 _Líder brasileira em identidade digital · Remoto · Entrei como Desenvolvedor de Software e fui promovido a Sênior (IC5) em jan/2023._
 
-- Arquitetei e escalei um **super-app Flutter** multimódulo com mais de **200 mil usuários ativos**, com biometria facial e documentos digitais, incluindo Módulo Core, Design System e trem de releases com CI/CD.
+- Arquitetei um **super-app Flutter** multimódulo com **mais de 200 mil usuários ativos**, incluindo Módulo Core, Design System, trem de releases com CI/CD e alertas de plantão (New Relic, incident.io).
 - No último ano, trabalhei 6 meses como engenheiro de backend em **Go** e 6 meses em web com **React**.
 
 ### Desenvolvedor Android — Toodoo | Jan 2019 – Jun 2020

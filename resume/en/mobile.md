@@ -12,11 +12,11 @@ Senior Mobile Engineer with 9+ years building software: 6 years shipping Flutter
 
 ## Skills
 
-- **Mobile:** Android (Kotlin, Java), Flutter, Dart, BLoC, Firebase, iOS via Flutter, Server-Driven UI (SDUI), Modular Architecture, Design Systems
+- **Mobile:** Android (Kotlin, Java), Flutter, Dart, BLoC, Firebase (Firestore, Remote Config), Analytics (PostHog, Mixpanel, Segment), iOS via Flutter, Server-Driven UI (SDUI), Modular Architecture, Design Systems
 - **Backend:** Rust, Java, Go, Node.js/JavaScript, TypeScript, REST APIs, Microservices, PostgreSQL, Redis
-- **Cloud & DevOps:** AWS, GCP, Docker, Kubernetes, Terraform, CI/CD (GitHub Actions), Trunk-Based Development, Feature Flags
+- **Cloud & DevOps:** AWS, GCP, Docker, Kubernetes, Terraform, CI/CD (GitHub Actions), Trunk-Based Development, Feature Flags (LaunchDarkly)
 - **Web:** React
-- **Practices:** Clean Architecture, RFCs and ADRs, CODEOWNERS, Observability (events and logs), Automated Testing
+- **Practices:** Clean Architecture, RFCs and ADRs, CODEOWNERS, Observability (Datadog, New Relic, incident.io, events and logs), Automated Testing
 - **AI:** LLM agents, Claude Code, Ollama, ComfyUI
 
 ## Experience
@@ -33,18 +33,19 @@ _Fintech with 10M+ users · Fraud Prevention · Remote · Engineering department
 - Migrated the legacy **Java** card password service to a **Rust** microservice on **AWS** with **PostgreSQL** as the sole engineer on it, and moved its screens to SDUI.
 - Developed and maintained 4 backend microservices (Rust, Java, JavaScript) for the challenge flow, which is called on **every Pix transaction**: the app sends the flow (Pix, card and others) and the backend decides which challenge to show.
 - Wrote RFCs and ADRs for the service migration, the app's move to SDUI and a refactor of the fraud prevention package that added events and logs to a buggy, unobservable codebase.
-- Stack: Flutter, Dart, Rust, Java, AWS, PostgreSQL, Server-Driven UI, Feature Flags.
+- Built **Datadog** (logs) and **PostHog** (events) dashboards for the challenge flow: flow health, user-journey funnels to find drop-off points, and boards for debugging specific errors.
+- Stack: Flutter, Dart, Rust, Java, AWS, PostgreSQL, Server-Driven UI, Feature Flags, Datadog, PostHog.
 
 ### Senior Software Developer — Unico IDtech | Jun 2020 – Nov 2024
 
 _Brazil's leader in digital identity · Remote · Joined as Software Developer, promoted to Senior (IC5) in Jan 2023._
 
-- Architected and scaled a multi-module **Flutter super-app** serving **200k+ active users**, with facial biometrics and digital documents.
-- Split the app into feature packages owned by each team through **CODEOWNERS**, which cut build times and merge conflicts, kept reviews with the owning team and let each module run on its own.
-- Designed the **Core Module** and the **Design System** used by every module of the super-app.
-- Built the **CI/CD** pipeline for the trunk-based monorepo, with automated tests and a weekly release train to the App Store and Google Play.
+- Architected the multi-module **Flutter super-app** (**200k+ active users**, facial biometrics and digital documents) as the team grew: feature packages owned by each team through **CODEOWNERS**, which cut build times and merge conflicts, kept reviews with the owning team and let each module run on its own.
+- Designed the **Design System** used by every module of the super-app, on top of the **Core Module** built earlier with the platform layer shared by all features.
+- Automated **CI/CD** for test builds and App Store / Google Play publishing, later organizing delivery into a **weekly release train**.
+- Set up on-call alerting with **New Relic** and **incident.io** for the engineer on duty each week, and moved analytics and feature flags from **Segment** and **Firebase** (Firestore, Remote Config) to **Mixpanel** and **LaunchDarkly**.
 - In the final year moved into fullstack work: 6 months as a backend engineer in **Go** (after contributing to the Go BFF) and 6 months on **React** web.
-- Stack: Flutter, Dart, Go, React, Monorepo, GitHub Actions.
+- Stack: Flutter, Dart, Firebase, LaunchDarkly, Mixpanel, New Relic, incident.io, Go, React.
 
 ### Android Developer — Toodoo | Jan 2019 – Jun 2020
 

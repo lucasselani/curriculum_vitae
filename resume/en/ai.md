@@ -15,7 +15,7 @@ Senior Software Engineer with 9+ years of production experience in fintech (10M+
 - **AI:** LLM agents, multi-agent orchestration, Claude Code, Ollama, ComfyUI, Gemini, text-to-speech, AI video generation (Veo 3), prompt engineering
 - **Languages:** TypeScript, Node.js, Rust, Java, Go, Dart, Kotlin, JavaScript
 - **Automation:** Playwright, Remotion, FFmpeg, YouTube API
-- **Backend & Cloud:** Microservices, REST APIs, PostgreSQL, Redis, AWS, GCP, Docker, Kubernetes, Terraform, CI/CD (GitHub Actions)
+- **Backend & Cloud:** Microservices, REST APIs, PostgreSQL, Redis, AWS, GCP, Docker, Kubernetes, Terraform, CI/CD (GitHub Actions), Datadog, New Relic, PostHog
 - **Mobile & Web:** Flutter, Android, React, Server-Driven UI (SDUI)
 
 ## AI Projects
@@ -39,12 +39,13 @@ _Fintech with 10M+ users · Fraud Prevention · Remote · Engineering department
 - Developed and maintained 4 backend microservices (**Rust**, **Java**, JavaScript) on **AWS** with **PostgreSQL** for the security challenge flow, called on **every Pix transaction**; migrated the legacy Java card password service to Rust as the sole engineer on it.
 - Built a **Server-Driven UI (SDUI)** system where the Flutter app only renders screens sent by the backend, turning a **two-week release cycle** into an **instant backend change** behind a feature flag.
 - Wrote RFCs and ADRs for the migration, the move to SDUI and a refactor that added events and logs to the fraud prevention package.
+- Built Datadog and PostHog dashboards for flow health, user-journey drop-off and error debugging.
 
 ### Senior Software Developer — Unico IDtech | Jun 2020 – Nov 2024
 
 _Brazil's leader in digital identity · Remote · Joined as Software Developer, promoted to Senior (IC5) in Jan 2023._
 
-- Architected and scaled a multi-module **Flutter super-app** serving **200k+ active users**, with facial biometrics and digital documents, its Core Module, Design System and CI/CD release train.
+- Architected a multi-module **Flutter super-app** serving **200k+ active users**, with its Core Module, Design System, CI/CD release train and on-call alerting (New Relic, incident.io).
 - In the final year, worked 6 months as a backend engineer in **Go** and 6 months on **React** web.
 
 ### Android Developer — Toodoo | Jan 2019 – Jun 2020

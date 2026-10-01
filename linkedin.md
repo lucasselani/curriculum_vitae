@@ -51,13 +51,13 @@ Senior Mobile Engineer with 9+ years building software: 6 years shipping Flutter
 
 What I've built:
 
-• Will Bank (fintech, 10M+ users): a Server-Driven UI (SDUI) system for the fraud prevention challenges. The backend sends the screens and the Flutter app only renders them, so changing the card password flow went from a two-week release cycle (code freeze, beta, store rollout) to an instant backend change behind a feature flag. I also developed 4 microservices (Rust, Java, JavaScript) for the challenge flow, which is called on every Pix transaction, and migrated the legacy Java card password service to Rust as the sole engineer on it.
+• Will Bank (fintech, 10M+ users): a Server-Driven UI (SDUI) system for the fraud prevention challenges. The backend sends the screens and the Flutter app only renders them, so changing the card password flow went from a two-week release cycle (code freeze, beta, store rollout) to an instant backend change behind a feature flag. I also developed 4 microservices (Rust, Java, JavaScript) for the challenge flow, which is called on every Pix transaction, and migrated the legacy Java card password service to Rust as the sole engineer on it. I also built the Datadog and PostHog dashboards the team used to watch flow health, user drop-off and errors.
 
-• Unico (digital identity, 200k+ active users): architected a multi-module Flutter super-app with facial biometrics and digital documents, its Core Module and the Design System used by every module, plus CI/CD for a trunk-based monorepo with a weekly release train. In my final year I worked 6 months on Go backend and 6 months on React web.
+• Unico (digital identity, 200k+ active users): architected a multi-module Flutter super-app with facial biometrics and digital documents, its Core Module and the Design System used by every module, plus CI/CD, a weekly release train and on-call alerting with New Relic and incident.io. In my final year I worked 6 months on Go backend and 6 months on React web.
 
 • Darkrunner: a TypeScript multi-agent pipeline that, given a channel name, wrote, narrated, edited and uploaded full YouTube videos with no human input, up to 15 videos a day across 5 channels. Today I run an AI content operation on Claude Code.
 
-I write RFCs and ADRs, care about observability (events and logs) and like owning a feature from the API contract to the UI.
+I write RFCs and ADRs, care about observability (Datadog, New Relic, PostHog, Mixpanel) and like owning a feature from the API contract to the UI.
 
 Stack: Flutter · Dart · Android (Kotlin, Java) · Rust · Java · Go · TypeScript/Node.js · React · AWS · GCP · PostgreSQL · Redis · Docker · Kubernetes · Terraform · CI/CD · LLM agents
 
@@ -120,8 +120,9 @@ Fintech with 10M+ users. Fraud Prevention squad, working across mobile and backe
 • Migrated the legacy Java card password service to a Rust microservice on AWS with PostgreSQL as the sole engineer on it, and moved its screens to SDUI.
 • Developed and maintained 4 backend microservices (Rust, Java, JavaScript) for the challenge flow, which is called on every Pix transaction: the app sends the flow (Pix, card and others) and the backend decides which challenge to show.
 • Wrote RFCs and ADRs for the service migration, the app's move to SDUI and a refactor of the fraud prevention package that added events and logs to a buggy, unobservable codebase.
+• Built Datadog (logs) and PostHog (events) dashboards for the challenge flow: flow health, user-journey funnels to find drop-off points, and boards for debugging specific errors.
 
-Stack: Flutter · Dart · Rust · Java · JavaScript · AWS · PostgreSQL · Server-Driven UI · Feature Flags
+Stack: Flutter · Dart · Rust · Java · JavaScript · AWS · PostgreSQL · Server-Driven UI · Feature Flags · Datadog · PostHog
 ```
 
 ### 3.3 Unico IDtech (duas posições na mesma empresa)
@@ -139,18 +140,19 @@ Cadastre como duas posições na mesma empresa. O LinkedIn agrupa e mostra a pro
 | End date | Nov 2024 |
 | Location | Brazil |
 | Location type | Remote |
-| Skills | Flutter · Go (Programming Language) · React.js · Software Architecture · Continuous Integration and Continuous Delivery (CI/CD) |
+| Skills | Flutter · Software Architecture · Design Systems · Go (Programming Language) · React.js |
 
 ```
-Brazil's leader in digital identity. IC5 (Senior) on the super-app and, in the final year, on backend and web.
+Brazil's leader in digital identity. IC5 (Senior) on the Flutter super-app and, in the final year, on backend and web.
 
-• Architected and scaled a multi-module Flutter super-app serving 200k+ active users, with facial biometrics and digital documents.
-• Split the app into feature packages owned by each team through CODEOWNERS, which cut build times and merge conflicts, kept reviews with the owning team and let each module run on its own.
-• Designed the Core Module and the Design System used by every module of the super-app.
-• Built the CI/CD pipeline for the trunk-based monorepo, with automated tests and a weekly release train to the App Store and Google Play.
+• Architected the multi-module Flutter super-app (200k+ active users, facial biometrics and digital documents) as the team grew: feature packages owned by each team through CODEOWNERS, which cut build times and merge conflicts, kept reviews with the owning team and let each module run on its own.
+• Designed the Design System used by every module of the super-app.
+• Organized delivery into a weekly release train.
+• Set up on-call alerting with New Relic and incident.io for the engineer on duty each week.
+• Moved feature flags and product analytics to LaunchDarkly and Mixpanel.
 • Final year: 6 months as a backend engineer in Go (after contributing to the Go BFF) and 6 months on React web.
 
-Stack: Flutter · Dart · BLoC · Go · React · GitHub Actions · Monorepo
+Stack: Flutter · Dart · LaunchDarkly · Mixpanel · New Relic · incident.io · Go · React
 ```
 
 **Posição anterior**
@@ -162,13 +164,18 @@ Stack: Flutter · Dart · BLoC · Go · React · GitHub Actions · Monorepo
 | Company or organization | Unico |
 | Start date | Jun 2020 |
 | End date | Dec 2022 |
+| Location | Brazil |
 | Location type | Remote |
-| Skills | Flutter · Dart · Mobile Application Development |
+| Skills | Flutter · Dart · Firebase · Continuous Integration and Continuous Delivery (CI/CD) · Mobile Application Development |
 
 ```
-Mobile developer on Unico's Flutter super-app (digital identity). Promoted to Senior Software Developer in Jan 2023.
+Mobile developer on Unico's Flutter app (digital identity). Promoted to Senior Software Developer in Jan 2023.
 
-Stack: Flutter · Dart · Android
+• Built the Core Module: the platform layer shared by every feature of the app.
+• Automated CI/CD for test builds and App Store / Google Play publishing.
+• Instrumented the app from day one with Segment events, Firebase (Firestore, Remote Config) and feature flags.
+
+Stack: Flutter · Dart · Firebase · Segment · CI/CD
 ```
 
 ### 3.4 Toodoo
@@ -273,7 +280,7 @@ Adicione na ordem abaixo. Depois, em cada skill, associe as experiências onde e
 **Top skills (fixar as 3 primeiras / aparecem no topo):** Flutter · Android Development · Rust
 
 **Mobile**
-Flutter · Dart · Android Development · Kotlin · Java · Mobile Application Development · Mobile Architecture · iOS Development · BLoC · Firebase · Server-Driven UI · Design Systems · Modular Architecture · Clean Architecture
+Flutter · Dart · Android Development · Kotlin · Java · Mobile Application Development · Mobile Architecture · iOS Development · BLoC · Firebase · Cloud Firestore · Firebase Remote Config · Server-Driven UI · Design Systems · Modular Architecture · Clean Architecture
 
 **Backend**
 Rust · Java · Go (Programming Language) · Node.js · JavaScript · TypeScript · Microservices · REST APIs · Back-End Web Development · PostgreSQL · Redis · Software Architecture · System Design
@@ -282,10 +289,10 @@ Rust · Java · Go (Programming Language) · Node.js · JavaScript · TypeScript
 React.js · Full-Stack Development · Front-End Development
 
 **Cloud & DevOps**
-Amazon Web Services (AWS) · Google Cloud Platform (GCP) · Docker · Kubernetes · Terraform · Continuous Integration and Continuous Delivery (CI/CD) · GitHub Actions · Git · Trunk-Based Development · Feature Flags · Monorepos
+Amazon Web Services (AWS) · Google Cloud Platform (GCP) · Docker · Kubernetes · Terraform · Continuous Integration and Continuous Delivery (CI/CD) · GitHub Actions · Git · Trunk-Based Development · Feature Flags · LaunchDarkly · Monorepos
 
 **Qualidade e práticas**
-Automated Testing · Quality Assurance · Observability · Technical Documentation · Code Review · Architecture Decision Records
+Automated Testing · Quality Assurance · Observability · Datadog · New Relic · Incident Management · On-call · PostHog · Mixpanel · Segment · Product Analytics · Dashboards · Technical Documentation · Code Review · Architecture Decision Records
 
 **IA e automação**
 AI Agents · Large Language Models (LLM) · Prompt Engineering · Claude · Generative AI · Playwright · Automation
@@ -339,9 +346,9 @@ Engenheiro Mobile Sênior com mais de 9 anos desenvolvendo software: 6 anos entr
 
 O que construí:
 
-• Will Bank (fintech, 10M+ usuários): um sistema de Server-Driven UI (SDUI) para os desafios de prevenção a fraudes. O backend envia as telas e o app Flutter só renderiza, e mudar o fluxo de senha do cartão passou de um ciclo de release de duas semanas para uma mudança instantânea no backend com feature flag. Também desenvolvi 4 microsserviços (Rust, Java, JavaScript) do fluxo de desafios, chamado em toda transação Pix, e migrei sozinho o serviço legado de senha do cartão de Java para Rust.
+• Will Bank (fintech, 10M+ usuários): um sistema de Server-Driven UI (SDUI) para os desafios de prevenção a fraudes. O backend envia as telas e o app Flutter só renderiza, e mudar o fluxo de senha do cartão passou de um ciclo de release de duas semanas para uma mudança instantânea no backend com feature flag. Também desenvolvi 4 microsserviços (Rust, Java, JavaScript) do fluxo de desafios, chamado em toda transação Pix, e migrei sozinho o serviço legado de senha do cartão de Java para Rust. Também criei os dashboards no Datadog e no PostHog que o time usava para acompanhar saúde do fluxo, abandono e erros.
 
-• Unico (identidade digital, 200 mil+ usuários ativos): arquitetei um super-app Flutter multimódulo com biometria facial e documentos digitais, o Módulo Core e o Design System usados por todos os módulos, e o CI/CD de um monorepo trunk-based com trem de releases semanal. No último ano, trabalhei 6 meses com backend em Go e 6 meses com web em React.
+• Unico (identidade digital, 200 mil+ usuários ativos): arquitetei um super-app Flutter multimódulo com biometria facial e documentos digitais, o Módulo Core e o Design System usados por todos os módulos, além de CI/CD, trem de releases semanal e alertas de plantão com New Relic e incident.io. No último ano, trabalhei 6 meses com backend em Go e 6 meses com web em React.
 
 • Darkrunner: pipeline multiagentes em TypeScript que, a partir do nome de um canal, escrevia, narrava, editava e publicava vídeos completos no YouTube sem intervenção humana, chegando a 15 vídeos por dia em 5 canais.
 
