@@ -1,14 +1,15 @@
 # CV - Lucas Selani
 
-Resume/CV of Lucas Selani, Senior Software Engineer (Fullstack & Mobile).
+Resume/CV of Lucas Selani, Senior Mobile Engineer (Android & Flutter) working across the stack.
 This repository treats my career history as code: versioned, structured, and compiled.
 
 ## 📄 Download
 
 | Version | English | Português (BR) |
 |---|---|---|
-| **Fullstack** (primary: startups, fintechs, fullstack/backend roles) | [PDF](./dist/Lucas-Selani-CV-Fullstack-EN.pdf) · [DOCX](./dist/Lucas-Selani-CV-Fullstack-EN.docx) | [PDF](./dist/Lucas-Selani-CV-Fullstack-PT-BR.pdf) · [DOCX](./dist/Lucas-Selani-CV-Fullstack-PT-BR.docx) |
-| **Mobile** (Flutter/Android/mobile roles) | [PDF](./dist/Lucas-Selani-CV-Mobile-EN.pdf) · [DOCX](./dist/Lucas-Selani-CV-Mobile-EN.docx) | [PDF](./dist/Lucas-Selani-CV-Mobile-PT-BR.pdf) · [DOCX](./dist/Lucas-Selani-CV-Mobile-PT-BR.docx) |
+| **Mobile** (primary: Android/Flutter roles) | [PDF](./dist/Lucas-Selani-CV-Mobile-EN.pdf) · [DOCX](./dist/Lucas-Selani-CV-Mobile-EN.docx) | [PDF](./dist/Lucas-Selani-CV-Mobile-PT-BR.pdf) · [DOCX](./dist/Lucas-Selani-CV-Mobile-PT-BR.docx) |
+| **Fullstack** (fullstack/backend roles) | [PDF](./dist/Lucas-Selani-CV-Fullstack-EN.pdf) · [DOCX](./dist/Lucas-Selani-CV-Fullstack-EN.docx) | [PDF](./dist/Lucas-Selani-CV-Fullstack-PT-BR.pdf) · [DOCX](./dist/Lucas-Selani-CV-Fullstack-PT-BR.docx) |
+| **AI** (LLM agents / AI automation roles) | [PDF](./dist/Lucas-Selani-CV-AI-EN.pdf) · [DOCX](./dist/Lucas-Selani-CV-AI-EN.docx) | [PDF](./dist/Lucas-Selani-CV-AI-PT-BR.pdf) · [DOCX](./dist/Lucas-Selani-CV-AI-PT-BR.docx) |
 
 Which file to send:
 
@@ -20,15 +21,13 @@ Which file to send:
 
 ```
 resume/
-  en/fullstack.md       # source for each version (edit these)
-  en/mobile.md
-  pt-BR/fullstack.md
-  pt-BR/mobile.md
+  en/{mobile,fullstack,ai}.md   # source for each version (edit these)
+  pt-BR/{mobile,fullstack,ai}.md
   resume.css            # PDF styling (one column, Arial, 10pt, no header/footer)
   reference.docx        # DOCX styling used by pandoc
 scripts/build.mjs       # Markdown -> HTML -> PDF (Chromium) and DOCX (pandoc)
 dist/                   # generated files (committed)
-linkedin/profile.md     # LinkedIn headline, About, experience and skills, aligned with the CV
+linkedin.md             # every LinkedIn field, ready to copy, aligned with the CV
 cv.md, cv.pt-BR.md, cv.pdf, cv.pt-BR.pdf, style.css   # previous version, kept as backup
 ```
 
@@ -46,4 +45,4 @@ The old flow (VS Code + Markdown PDF on `cv.md`) still works for the backup file
 
 ---
 
-_Last Update: September 2026_
+_Last Update: October 2026_

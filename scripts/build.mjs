@@ -18,8 +18,8 @@ const tmpDir = join(root, ".build");
 const css = readFileSync(join(resumeDir, "resume.css"), "utf8");
 
 const personaLabel = {
-  en: { fullstack: "Fullstack", mobile: "Mobile" },
-  "pt-BR": { fullstack: "Fullstack", mobile: "Mobile" },
+  en: { mobile: "Mobile", fullstack: "Fullstack", ai: "AI" },
+  "pt-BR": { mobile: "Mobile", fullstack: "Fullstack", ai: "AI" },
 };
 
 function outputName(lang, persona) {
